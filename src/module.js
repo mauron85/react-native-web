@@ -6,6 +6,7 @@ import ReactNativePropRegistry from './modules/ReactNativePropRegistry';
 import { hydrate, render, unmountComponentAtNode } from 'react-dom';
 
 // APIs
+import Alert from './apis/Alert';
 import Animated from './apis/Animated';
 import AppRegistry from './apis/AppRegistry';
 import AppState from './apis/AppState';
@@ -71,6 +72,8 @@ export {
   NativeModules,
   processColor,
   // APIs
+  Alert,
+  Alert as AlertIOS,
   Animated,
   AppRegistry,
   AppState,
@@ -137,6 +140,8 @@ const ReactNative = {
   processColor,
 
   // APIs
+  Alert,
+  AlertIOS: Alert,
   Animated,
   AppRegistry,
   AppState,
