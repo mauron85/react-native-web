@@ -1,5 +1,5 @@
 const getDistLocation = importName => {
-  const root = 'react-native-web/dist';
+  const root = 'react-native-web/src';
 
   switch (importName) {
     // apis
